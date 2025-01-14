@@ -1,10 +1,11 @@
 {
   "name": "@kevin-j/simple-react-modal",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "type": "module",
   "description": "A simple React modal component",
   "main": "index.js",
   "scripts": {
+    
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
