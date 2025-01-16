@@ -31,11 +31,11 @@ const App = () => {
 
     return (
         <div>
-            <button onClick={() => setDisplayModal(true)}>Open my Modal</button>
+            <button onClick={() => setShowModal(true)}>Open my Modal</button>
             <Modal
                 message="Hello, I am a modal"
-                toggle={() => setDisplayModal(false)}
-                isOpen={displayModal}
+                toggle={() => setShowModal(false)}
+                isOpen={showModal}
             />
         </div>
     );
