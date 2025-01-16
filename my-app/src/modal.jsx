@@ -5,10 +5,11 @@ import './modal.css';
  * Modal component to display a message in a modal dialog.
  *
  * @component
- * @param {string} message - The message to display in the modal.
- * @param {function} toggle - Function to call when the modal is closed.
- * @param {boolean} isOpen - Boolean to control the visibility of the modal.
- * @returns {JSX.Element} The rendered modal component.
+ * @param {Object} props - Component properties.
+ * @param {string} props.message - The message to display in the modal.
+ * @param {function} props.toggle - Function to call when the modal is closed.
+ * @param {boolean} props.isOpen - Boolean to control the visibility of the modal.
+ * @returns {JSX.Element|null} The rendered modal component or null if not open.
  */
 function Modal({ message, toggle, isOpen }) {
     if (!isOpen) return null;
